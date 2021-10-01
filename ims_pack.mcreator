@@ -112,6 +112,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "beastberger"
+    },
+    {
+      "name": "Beast",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beast"
     }
   ],
   "variable_elements": [],

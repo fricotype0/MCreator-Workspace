@@ -23,6 +23,7 @@ import net.minecraft.item.Item;
 import net.mcreator.imspack.procedures.NAPAxeRightClickedOnBlockProcedure;
 import net.mcreator.imspack.procedures.NAPAxeLivingEntityIsHitWithToolProcedure;
 import net.mcreator.imspack.item.NAPAxeTool;
+import net.mcreator.imspack.item.KaddtosswordTool;
 import net.mcreator.imspack.item.CreativeTabItemGroup;
 
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
@@ -32,6 +33,7 @@ public class ImsPackMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final ItemGroup CreativeTab = CreativeTabItemGroup.get();
 	public static final Item NAPAxe_ITEM = Registry.register(Registry.ITEM, id("nap_axe"), NAPAxeTool.INSTANCE);
+	public static final Item Kaddtossword_ITEM = Registry.register(Registry.ITEM, id("kaddtossword"), KaddtosswordTool.INSTANCE);
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing ImsPackMod");

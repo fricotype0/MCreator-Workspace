@@ -11,6 +11,15 @@
       "registry_name": "creative_tab"
     },
     {
+      "name": "NAPAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nap_axe"
+    },
+    {
       "name": "NAPAxeLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 2,
@@ -69,20 +78,28 @@
       }
     },
     {
-      "name": "NAPAxe",
+      "name": "Kaddtosswordcratfing",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaddtosswordcratfing"
+    },
+    {
+      "name": "Kaddtossword",
       "type": "tool",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "nap_axe"
+      "registry_name": "kaddtossword"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.ims_pack.nap_axe": "NAP Axe",
       "itemGroup.ims_pack.creative_tab": "IMS Pack"
     }
   },

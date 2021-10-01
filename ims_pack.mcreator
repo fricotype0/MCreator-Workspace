@@ -103,6 +103,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kaddtos"
+    },
+    {
+      "name": "Beastberger",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beastberger"
     }
   ],
   "variable_elements": [],

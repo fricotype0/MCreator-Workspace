@@ -1,7 +1,22 @@
 
 package net.mcreator.imspack.item;
 
-import com.google.common.collect.*;
+import net.minecraft.world.World;
+import net.minecraft.text.Text;
+import net.minecraft.text.LiteralText;
+import net.minecraft.recipe.Ingredient;
+import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.AxeItem;
+import net.minecraft.client.item.TooltipContext;
+
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.api.Environment;
+import net.fabricmc.api.EnvType;
+
+import java.util.List;
 
 public class NAPAxeTool {
 	public static final ToolMaterial NAPAXE_TOOL_MATERIAL = new ToolMaterial() {
@@ -35,15 +50,12 @@ public class NAPAxeTool {
 			return Ingredient.ofItems(Items.DIAMOND_AXE, Items.NETHERITE_AXE);
 		}
 	};
-
 	public static final Item INSTANCE = new AxeItem(NAPAXE_TOOL_MATERIAL, 0, (float) -3.5,
 			(new FabricItemSettings().group(CreativeTabItemGroup.get()).fireproof())) {
-
 		@Override
 		@Environment(EnvType.CLIENT)
 		public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
 			tooltip.add(new LiteralText("For chopping... stuff"));
 		}
-
 	};
 }

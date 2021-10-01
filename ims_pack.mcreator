@@ -9,12 +9,31 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creative_tab"
+    },
+    {
+      "name": "Kaddtossword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaddtossword"
+    },
+    {
+      "name": "Kaddtosswordcratfing",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaddtosswordcratfing"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ims_pack.kaddtossword": "Kaddtossword",
       "itemGroup.ims_pack.creative_tab": "IMS Pack"
     }
   },

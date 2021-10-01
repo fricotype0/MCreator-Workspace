@@ -23,6 +23,6 @@
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": true
   }
 }

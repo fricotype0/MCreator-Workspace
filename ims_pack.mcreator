@@ -14,7 +14,7 @@
       "name": "NAPAxe",
       "type": "tool",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "nap_axe"
@@ -90,7 +90,7 @@
       "name": "Kaddtossword",
       "type": "tool",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "kaddtossword"

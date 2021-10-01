@@ -78,15 +78,6 @@
       }
     },
     {
-      "name": "Kaddtosswordcratfing",
-      "type": "recipe",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "kaddtosswordcratfing"
-    },
-    {
       "name": "Kaddtossword",
       "type": "tool",
       "sortid": 2,

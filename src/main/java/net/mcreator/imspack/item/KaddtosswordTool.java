@@ -57,11 +57,5 @@ public class KaddtosswordTool {
 		public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
 			tooltip.add(new LiteralText("the might of the kaddto"));
 		}
-
-		@Environment(EnvType.CLIENT)
-		@Override
-		public boolean hasGlint(ItemStack stack) {
-			return true;
-		}
 	};
 }

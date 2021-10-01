@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ims_pack",
+  "version": "1.0.0",
+  "name": "IMS Pack",
+  "authors": [
+    "frico, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": "https://github.com/ClothCreators/Fabric-Generator-MCreator"
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.imspack.ImsPackMod"
+    ],
+    "client": [
+      "net.mcreator.imspack.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*"
+  }
+}

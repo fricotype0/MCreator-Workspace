@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.ENDER_PEARL"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.DIAMOND_BLOCK"
       },
       {
-        "value": ""
+        "value": "Items.ENDER_PEARL"
       },
       {
-        "value": ""
+        "value": "Items.ENDER_PEARL"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.DIAMOND_BLOCK"
       },
       {
-        "value": ""
+        "value": "Items.ENDER_PEARL"
       },
       {
         "value": ""

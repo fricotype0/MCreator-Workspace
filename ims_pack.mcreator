@@ -85,6 +85,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kaddtossword"
+    },
+    {
+      "name": "Kaddtos",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaddtos"
     }
   ],
   "variable_elements": [],

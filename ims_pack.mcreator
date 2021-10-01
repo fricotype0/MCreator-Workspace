@@ -14,7 +14,7 @@
       "name": "NAPAxe",
       "type": "tool",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "nap_axe"
@@ -90,7 +90,7 @@
       "name": "Kaddtossword",
       "type": "tool",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "kaddtossword"
@@ -100,6 +100,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ims_pack.nap_axe": "NAP Axe",
+      "item.ims_pack.kaddtossword": "Kaddtossword",
       "itemGroup.ims_pack.creative_tab": "IMS Pack"
     }
   },

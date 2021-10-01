@@ -1,7 +1,22 @@
 
 package net.mcreator.imspack.item;
 
-import com.google.common.collect.*;
+import net.minecraft.world.World;
+import net.minecraft.text.Text;
+import net.minecraft.text.LiteralText;
+import net.minecraft.recipe.Ingredient;
+import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.client.item.TooltipContext;
+
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.api.Environment;
+import net.fabricmc.api.EnvType;
+
+import java.util.List;
 
 public class KaddtosswordTool {
 	public static final ToolMaterial KADDTOSSWORD_TOOL_MATERIAL = new ToolMaterial() {
@@ -35,10 +50,8 @@ public class KaddtosswordTool {
 			return Ingredient.ofItems(Items.DIAMOND_BLOCK);
 		}
 	};
-
 	public static final Item INSTANCE = new SwordItem(KADDTOSSWORD_TOOL_MATERIAL, 0, (float) -3,
 			(new FabricItemSettings().group(CreativeTabItemGroup.get()).fireproof())) {
-
 		@Override
 		@Environment(EnvType.CLIENT)
 		public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -50,6 +63,5 @@ public class KaddtosswordTool {
 		public boolean hasGlint(ItemStack stack) {
 			return true;
 		}
-
 	};
 }

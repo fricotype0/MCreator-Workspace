@@ -32,7 +32,7 @@ public class NAPAxeTool {
 
 		@Override
 		public float getAttackDamage() {
-			return 13F;
+			return 21F;
 		}
 
 		@Override
